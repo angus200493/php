@@ -18,7 +18,7 @@
             color:gray;
             text-align:center;
         }
-        /* top */
+        /* top頂部包含系徽圖片、系名及導航連結（明新科大、管理學院、登入按鈕） */
         .top{
              background-color: white;
         }
@@ -45,7 +45,7 @@
         .top .top-nav a{
             text-decoration: none;
         }
-        /* nav */
+        /* nav導航包含首頁、系所簡介、成員簡介（下拉選單）及相關資訊的連結 */
         .nav {
             background-color:#333;
             display: flex;
@@ -93,11 +93,11 @@
             text-align: left;
         }
 
-        /* slider */
+        /* slider 輪播圖顯示三張圖片（slider1.JPG、slider2.JPG、slider3.JPG）*/
         .slider{
             background-color: black;
         }
-        /* banner*/
+        /* banner布告欄顯示最新資訊*/
         .banner{
             background-image: linear-gradient(#ABDCFF,#0396FF);
             padding:30px;
@@ -105,7 +105,7 @@
         .banner h1{
             padding: 20px;
         }        
-        /*faculty*/
+        /*faculty師資介紹展示教師照片姓名*/
         .faculty {
             display: block;
             justify-content: center;
@@ -137,7 +137,7 @@
             background-color: rgba(39,40,34,.500);
             text-align: center;           
         }
-        /*contact*/
+        /*contact相關資訊提供地址、電話、傳真及Google地圖崁入*/
         .contact {
             display: block;
             justify-content: center;
@@ -183,7 +183,7 @@
             height: 100%;
             border: 1px solid rgba(39,40,34,0.50);
         }
-        /*footer*/
+        /*footer頁腳版權資訊及維護者*/
         .footer{
             display: flex;
             justify-content: center;
