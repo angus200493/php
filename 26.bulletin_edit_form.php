@@ -14,7 +14,7 @@
         $checked2="";
         $checked3="";
         if ($row['type']==1)
-            $checked1="checked";
+            $checked1="checked";#根據type欄位值設定按鈕的屬性
         if ($row['type']==2)
             $checked2="checked";
         if ($row['type']==3)
@@ -35,6 +35,6 @@
                 </form>
             </body>
         </html>
-        ";
+        ";#顯示表單提交置27.bulletin_edit.php，佈告編號顯示，並以隱藏欄位傳遞，標題文字輸入欄預填，內容20行20列文字區域預填，佈告類型三個單選按鈕(系上公告)(獲獎資訊)(徵才資訊)根據資料庫值預選，發布時間日期輸入欄預填，按鈕(修改佈告)(清除)
     }
 ?>
