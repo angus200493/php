@@ -8,11 +8,11 @@ if (!$_SESSION["id"]) {
 }
 else{    
 
-   #mysqli_connect() 建立資料庫連結
+   #mysqli_connect() 建立資料庫連結 
    $conn=mysqli_connect("db4free.net", "immust", "immustimmust", "immust");
-   #mysqli_query() 從資料庫查詢資料
+   #mysqli_query() 從資料庫查詢資料 db4free.net，使用者 immust，密碼 immustimmust，資料庫 immust
    #新增資料SQL命令：insert into 表格名稱(欄位1,欄位2) values(欄位1的值,欄位2的值)
-   $sql="insert into user(id,pwd) values('{$_POST['id']}', '{$_POST['pwd']}')";
+   $sql="insert into user(id,pwd) values('{$_POST['id']}', '{$_POST['pwd']}')";#將表格提交的帳號密碼插入user表格
    #echo $sql;
    if (!mysqli_query($conn, $sql)) {
      echo "新增命令錯誤";
