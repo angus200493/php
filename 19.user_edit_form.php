@@ -19,7 +19,7 @@
             密碼：<input type=text name=pwd value={$row['pwd']}><p></p>
             <input type=submit value=修改>
         </form>
-        ";
+        ";#隱藏欄位儲存使用者ID，顯示帳號不可編輯，填寫當前密碼允許修改，提交按鈕為修改，交至20.user_edit.php
     }
     ?>
     </body>
